@@ -1,3 +1,4 @@
 document.getElementById("login").addEventListener("click", function () {
-  console.log("Must come tomorrow.");
+  document.getElementById("login-area").style.display="none";
+  document.getElementById("transaction-area").style.display="block";
 });
